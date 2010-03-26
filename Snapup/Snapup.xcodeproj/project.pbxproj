@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1D3623260D0F684500981E51 /* SnapupAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* SnapupAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765A40DF7441C002DB57D /* CoreGraphics.framework */; };
+		2899E5220DE3E06400AC0155 /* SnapupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* SnapupViewController.xib */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		28D7ACF80DDB3853001CB0EB /* SnapupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* SnapupViewController.m */; };
+		9B124A031141B74F009628E6 /* Meetup.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 9B124A021141B74F009628E6 /* Meetup.xcdatamodel */; };
+		9B1E3FAE1118DA3C00A6EAF3 /* PhotoUploadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B1E3FAC1118DA3C00A6EAF3 /* PhotoUploadViewController.m */; };
+		9B1E3FAF1118DA3C00A6EAF3 /* PhotoUploadViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B1E3FAD1118DA3C00A6EAF3 /* PhotoUploadViewController.xib */; };
+		9B23155E1118CBEB002D4C91 /* LoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B23155D1118CBEB002D4C91 /* LoadingView.m */; };
+		9B3C5273110E5EA8002A0609 /* Three20.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9B3C5272110E5EA8002A0609 /* Three20.bundle */; };
+		9B3C52A4110E5F25002A0609 /* libThree20.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B3C523C110E5E69002A0609 /* libThree20.a */; };
+		9B98234A10DED914000D57BE /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98234910DED914000D57BE /* Event.m */; };
+		9B98237F10DEDB23000D57BE /* EventTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98237E10DEDB23000D57BE /* EventTableCell.m */; };
+		9B98238110DEDB6E000D57BE /* EventTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B98238010DEDB6E000D57BE /* EventTableCell.xib */; };
+		9B9823AA10DEDD49000D57BE /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B9823A910DEDD49000D57BE /* User.m */; };
+		9B98243E10DEE048000D57BE /* NSObject+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98243310DEE048000D57BE /* NSObject+SBJSON.m */; };
+		9B98243F10DEE048000D57BE /* NSString+SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98243510DEE048000D57BE /* NSString+SBJSON.m */; };
+		9B98244010DEE048000D57BE /* SBJSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98243710DEE048000D57BE /* SBJSON.m */; };
+		9B98244110DEE048000D57BE /* SBJsonBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98243910DEE048000D57BE /* SBJsonBase.m */; };
+		9B98244210DEE048000D57BE /* SBJsonParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98243B10DEE048000D57BE /* SBJsonParser.m */; };
+		9B98244310DEE048000D57BE /* SBJsonWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B98243D10DEE048000D57BE /* SBJsonWriter.m */; };
+		9BA67D0B1111FA7D00AC9C41 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BA67D091111FA7D00AC9C41 /* LoginViewController.m */; };
+		9BA67D0C1111FA7D00AC9C41 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BA67D0A1111FA7D00AC9C41 /* LoginViewController.xib */; };
+		9BAA115311404A57006D496D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BAA115211404A57006D496D /* CoreData.framework */; };
+		9BB8245E1148072E00640953 /* NSDate+StringFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB8245D1148072E00640953 /* NSDate+StringFunctions.m */; };
+		9BB9B886110F8688005BC5DF /* MeetupConnectionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB9B885110F8688005BC5DF /* MeetupConnectionManager.m */; };
+		9BBB7FD9112F4AF2003188FC /* snapup_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BBB7FD8112F4AF2003188FC /* snapup_icon.png */; };
+		9BBB8008112F4F49003188FC /* MeetupAsyncRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB8007112F4F49003188FC /* MeetupAsyncRequest.m */; };
+		9BD208B51135C33B007600A2 /* BasicTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BD208B41135C33B007600A2 /* BasicTextCell.xib */; };
+		9BD2090A1135CBE6007600A2 /* BasicTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BD209091135CBE6007600A2 /* BasicTextCell.m */; };
+		9BDB54FD112478D9003126E7 /* NowCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9BDB54FC112478D9003126E7 /* NowCell.xib */; };
+		9BDB5501112479A4003126E7 /* NowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BDB5500112479A4003126E7 /* NowCell.m */; };
+		9BE492F8110F57DC00931CD5 /* libMPOAuth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE492F5110F57D300931CD5 /* libMPOAuth.a */; };
+		9BE49367110F59F400931CD5 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE49366110F59F400931CD5 /* Security.framework */; };
+		9BE4937E110F5A7200931CD5 /* libxml2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 9BE4937D110F5A7200931CD5 /* libxml2.dylib */; };
+		9BE49429110F7AC000931CD5 /* oauthAutoConfig.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9BE49428110F7AC000931CD5 /* oauthAutoConfig.plist */; };
+		CA001A9C11345513004D0953 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = CA001A9B11345513004D0953 /* Default.png */; };
+		CA1743B811359B6E00F4CE0D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA1743B711359B6E00F4CE0D /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9B3C523B110E5E69002A0609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3C5233110E5E69002A0609 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BEF31F3A0F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+		9B3C523D110E5E69002A0609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3C5233110E5E69002A0609 /* Three20.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EB9E6C6210B6A8F800DE563C;
+			remoteInfo = UnitTests;
+		};
+		9B3C526F110E5E90002A0609 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9B3C5233110E5E69002A0609 /* Three20.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BEF31F390F352DF5000DE5D2;
+			remoteInfo = Three20;
+		};
+		9BE492F0110F57D300931CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8D1107320486CEB800E47090;
+			remoteInfo = MPOAuthConnection;
+		};
+		9BE492F2110F57D300931CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB920E280EF3D02600A89BBD;
+			remoteInfo = MPOAuth;
+		};
+		9BE492F4110F57D300931CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CB00ACEF110A5F470089972A;
+			remoteInfo = libMPOAuth;
+		};
+		9BE492F6110F57D300931CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CBE7157F0EFAC03300EF25AA;
+			remoteInfo = "Unit Tests";
+		};
+		9BE49335110F588500931CD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = CB00ACEE110A5F470089972A;
+			remoteInfo = libMPOAuth;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* SnapupAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapupAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* SnapupAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapupAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* Snapup.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Snapup.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765A40DF7441C002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2899E5210DE3E06400AC0155 /* SnapupViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SnapupViewController.xib; sourceTree = "<group>"; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		28D7ACF60DDB3853001CB0EB /* SnapupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SnapupViewController.h; sourceTree = "<group>"; };
+		28D7ACF70DDB3853001CB0EB /* SnapupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SnapupViewController.m; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* Snapup_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snapup_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* Snapup-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Snapup-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		9B124A021141B74F009628E6 /* Meetup.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = Meetup.xcdatamodel; sourceTree = "<group>"; };
+		9B1E3FAB1118DA3C00A6EAF3 /* PhotoUploadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoUploadViewController.h; sourceTree = "<group>"; };
+		9B1E3FAC1118DA3C00A6EAF3 /* PhotoUploadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoUploadViewController.m; sourceTree = "<group>"; };
+		9B1E3FAD1118DA3C00A6EAF3 /* PhotoUploadViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = PhotoUploadViewController.xib; path = Classes/PhotoUploadViewController.xib; sourceTree = "<group>"; };
+		9B23155C1118CBEB002D4C91 /* LoadingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadingView.h; sourceTree = "<group>"; };
+		9B23155D1118CBEB002D4C91 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
+		9B3C5233110E5E69002A0609 /* Three20.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Three20.xcodeproj; path = ../Frameworks/three20/src/Three20.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9B3C5272110E5EA8002A0609 /* Three20.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = Three20.bundle; path = ../Frameworks/three20/src/Three20.bundle; sourceTree = SOURCE_ROOT; };
+		9B98234810DED914000D57BE /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		9B98234910DED914000D57BE /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		9B98237D10DEDB23000D57BE /* EventTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EventTableCell.h; path = Classes/EventTableCell.h; sourceTree = "<group>"; };
+		9B98237E10DEDB23000D57BE /* EventTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EventTableCell.m; path = Classes/EventTableCell.m; sourceTree = "<group>"; };
+		9B98238010DEDB6E000D57BE /* EventTableCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = EventTableCell.xib; sourceTree = "<group>"; };
+		9B9823A810DEDD49000D57BE /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		9B9823A910DEDD49000D57BE /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		9B98243110DEE048000D57BE /* JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSON.h; sourceTree = "<group>"; };
+		9B98243210DEE048000D57BE /* NSObject+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+SBJSON.h"; sourceTree = "<group>"; };
+		9B98243310DEE048000D57BE /* NSObject+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+SBJSON.m"; sourceTree = "<group>"; };
+		9B98243410DEE048000D57BE /* NSString+SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+SBJSON.h"; sourceTree = "<group>"; };
+		9B98243510DEE048000D57BE /* NSString+SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+SBJSON.m"; sourceTree = "<group>"; };
+		9B98243610DEE048000D57BE /* SBJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJSON.h; sourceTree = "<group>"; };
+		9B98243710DEE048000D57BE /* SBJSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJSON.m; sourceTree = "<group>"; };
+		9B98243810DEE048000D57BE /* SBJsonBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonBase.h; sourceTree = "<group>"; };
+		9B98243910DEE048000D57BE /* SBJsonBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonBase.m; sourceTree = "<group>"; };
+		9B98243A10DEE048000D57BE /* SBJsonParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonParser.h; sourceTree = "<group>"; };
+		9B98243B10DEE048000D57BE /* SBJsonParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonParser.m; sourceTree = "<group>"; };
+		9B98243C10DEE048000D57BE /* SBJsonWriter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SBJsonWriter.h; sourceTree = "<group>"; };
+		9B98243D10DEE048000D57BE /* SBJsonWriter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SBJsonWriter.m; sourceTree = "<group>"; };
+		9BA67D081111FA7D00AC9C41 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		9BA67D091111FA7D00AC9C41 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		9BA67D0A1111FA7D00AC9C41 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LoginViewController.xib; path = Classes/LoginViewController.xib; sourceTree = "<group>"; };
+		9BAA115211404A57006D496D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9BB8245C1148072E00640953 /* NSDate+StringFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+StringFunctions.h"; sourceTree = "<group>"; };
+		9BB8245D1148072E00640953 /* NSDate+StringFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+StringFunctions.m"; sourceTree = "<group>"; };
+		9BB9B884110F8688005BC5DF /* MeetupConnectionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupConnectionManager.h; sourceTree = "<group>"; };
+		9BB9B885110F8688005BC5DF /* MeetupConnectionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetupConnectionManager.m; sourceTree = "<group>"; };
+		9BBB7FD8112F4AF2003188FC /* snapup_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = snapup_icon.png; sourceTree = "<group>"; };
+		9BBB8006112F4F49003188FC /* MeetupAsyncRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupAsyncRequest.h; sourceTree = "<group>"; };
+		9BBB8007112F4F49003188FC /* MeetupAsyncRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetupAsyncRequest.m; sourceTree = "<group>"; };
+		9BD208B41135C33B007600A2 /* BasicTextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BasicTextCell.xib; sourceTree = "<group>"; };
+		9BD209081135CBE6007600A2 /* BasicTextCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BasicTextCell.h; path = Classes/BasicTextCell.h; sourceTree = "<group>"; };
+		9BD209091135CBE6007600A2 /* BasicTextCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BasicTextCell.m; path = Classes/BasicTextCell.m; sourceTree = "<group>"; };
+		9BDB54FC112478D9003126E7 /* NowCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NowCell.xib; sourceTree = "<group>"; };
+		9BDB54FF112479A4003126E7 /* NowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NowCell.h; path = Classes/NowCell.h; sourceTree = "<group>"; };
+		9BDB5500112479A4003126E7 /* NowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NowCell.m; path = Classes/NowCell.m; sourceTree = "<group>"; };
+		9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MPOAuthConnection.xcodeproj; path = ../Frameworks/mpoauthconnection/MPOAuthConnection.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9BE49366110F59F400931CD5 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		9BE4937D110F5A7200931CD5 /* libxml2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.dylib; path = usr/lib/libxml2.dylib; sourceTree = SDKROOT; };
+		9BE49428110F7AC000931CD5 /* oauthAutoConfig.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = oauthAutoConfig.plist; path = ../Frameworks/mpoauthconnection/Resources/oauthAutoConfig.plist; sourceTree = SOURCE_ROOT; };
+		CA001A9B11345513004D0953 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		CA1743B711359B6E00F4CE0D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765A50DF7441C002DB57D /* CoreGraphics.framework in Frameworks */,
+				9B3C52A4110E5F25002A0609 /* libThree20.a in Frameworks */,
+				9BE492F8110F57DC00931CD5 /* libMPOAuth.a in Frameworks */,
+				9BE49367110F59F400931CD5 /* Security.framework in Frameworks */,
+				9BE4937E110F5A7200931CD5 /* libxml2.dylib in Frameworks */,
+				CA1743B811359B6E00F4CE0D /* QuartzCore.framework in Frameworks */,
+				9BAA115311404A57006D496D /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080E96DDFE201D6D7F000001 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				1D3623240D0F684500981E51 /* SnapupAppDelegate.h */,
+				1D3623250D0F684500981E51 /* SnapupAppDelegate.m */,
+				9BA67D081111FA7D00AC9C41 /* LoginViewController.h */,
+				9BA67D091111FA7D00AC9C41 /* LoginViewController.m */,
+				28D7ACF60DDB3853001CB0EB /* SnapupViewController.h */,
+				28D7ACF70DDB3853001CB0EB /* SnapupViewController.m */,
+				9B1E3FAB1118DA3C00A6EAF3 /* PhotoUploadViewController.h */,
+				9B1E3FAC1118DA3C00A6EAF3 /* PhotoUploadViewController.m */,
+				9BD209131135CBEB007600A2 /* Cells */,
+				9B98234B10DED928000D57BE /* Models */,
+				9B98234F10DED954000D57BE /* Utilities */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1D6058910D05DD3D006BFB54 /* Snapup.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
+			isa = PBXGroup;
+			children = (
+				080E96DDFE201D6D7F000001 /* Classes */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
+				9BE4937D110F5A7200931CD5 /* libxml2.dylib */,
+			);
+			name = CustomTemplate;
+			sourceTree = "<group>";
+		};
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				32CA4F630368D1EE00C91783 /* Snapup_Prefix.pch */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9B124A021141B74F009628E6 /* Meetup.xcdatamodel */,
+				9BE49428110F7AC000931CD5 /* oauthAutoConfig.plist */,
+				8D1107310486CEB800E47090 /* Snapup-Info.plist */,
+				9BAA122011404E1C006D496D /* NIBs */,
+				9BAA121F11404E12006D496D /* Images */,
+				9B3C5272110E5EA8002A0609 /* Three20.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C5233110E5E69002A0609 /* Three20.xcodeproj */,
+				9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */,
+				9B98243010DEE048000D57BE /* JSON */,
+				9BAA115211404A57006D496D /* CoreData.framework */,
+				9BE49366110F59F400931CD5 /* Security.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765A40DF7441C002DB57D /* CoreGraphics.framework */,
+				CA1743B711359B6E00F4CE0D /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9B3C5234110E5E69002A0609 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C523C110E5E69002A0609 /* libThree20.a */,
+				9B3C523E110E5E69002A0609 /* UnitTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B98234B10DED928000D57BE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				9B98234810DED914000D57BE /* Event.h */,
+				9B98234910DED914000D57BE /* Event.m */,
+				9B9823A810DEDD49000D57BE /* User.h */,
+				9B9823A910DEDD49000D57BE /* User.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		9B98234F10DED954000D57BE /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9BBB8006112F4F49003188FC /* MeetupAsyncRequest.h */,
+				9BBB8007112F4F49003188FC /* MeetupAsyncRequest.m */,
+				9BB9B884110F8688005BC5DF /* MeetupConnectionManager.h */,
+				9BB9B885110F8688005BC5DF /* MeetupConnectionManager.m */,
+				9B23155C1118CBEB002D4C91 /* LoadingView.h */,
+				9B23155D1118CBEB002D4C91 /* LoadingView.m */,
+				9BB8245C1148072E00640953 /* NSDate+StringFunctions.h */,
+				9BB8245D1148072E00640953 /* NSDate+StringFunctions.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		9B98243010DEE048000D57BE /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				9B98243110DEE048000D57BE /* JSON.h */,
+				9B98243210DEE048000D57BE /* NSObject+SBJSON.h */,
+				9B98243310DEE048000D57BE /* NSObject+SBJSON.m */,
+				9B98243410DEE048000D57BE /* NSString+SBJSON.h */,
+				9B98243510DEE048000D57BE /* NSString+SBJSON.m */,
+				9B98243610DEE048000D57BE /* SBJSON.h */,
+				9B98243710DEE048000D57BE /* SBJSON.m */,
+				9B98243810DEE048000D57BE /* SBJsonBase.h */,
+				9B98243910DEE048000D57BE /* SBJsonBase.m */,
+				9B98243A10DEE048000D57BE /* SBJsonParser.h */,
+				9B98243B10DEE048000D57BE /* SBJsonParser.m */,
+				9B98243C10DEE048000D57BE /* SBJsonWriter.h */,
+				9B98243D10DEE048000D57BE /* SBJsonWriter.m */,
+			);
+			path = JSON;
+			sourceTree = "<group>";
+		};
+		9B993C3C114EE1C200725CCF /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BD208B41135C33B007600A2 /* BasicTextCell.xib */,
+				9B98238010DEDB6E000D57BE /* EventTableCell.xib */,
+				9BDB54FC112478D9003126E7 /* NowCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		9BAA121F11404E12006D496D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CA001A9B11345513004D0953 /* Default.png */,
+				9BBB7FD8112F4AF2003188FC /* snapup_icon.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		9BAA122011404E1C006D496D /* NIBs */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+				9BA67D0A1111FA7D00AC9C41 /* LoginViewController.xib */,
+				2899E5210DE3E06400AC0155 /* SnapupViewController.xib */,
+				9B1E3FAD1118DA3C00A6EAF3 /* PhotoUploadViewController.xib */,
+				9B993C3C114EE1C200725CCF /* Cells */,
+			);
+			name = NIBs;
+			sourceTree = "<group>";
+		};
+		9BD209131135CBEB007600A2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				9BDB54FF112479A4003126E7 /* NowCell.h */,
+				9BDB5500112479A4003126E7 /* NowCell.m */,
+				9B98237D10DEDB23000D57BE /* EventTableCell.h */,
+				9B98237E10DEDB23000D57BE /* EventTableCell.m */,
+				9BD209081135CBE6007600A2 /* BasicTextCell.h */,
+				9BD209091135CBE6007600A2 /* BasicTextCell.m */,
+			);
+			name = Cells;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		9BE492E6110F57D300931CD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BE492F1110F57D300931CD5 /* MPOAuthConnection.app */,
+				9BE492F3110F57D300931CD5 /* MPOAuth.framework */,
+				9BE492F5110F57D300931CD5 /* libMPOAuth.a */,
+				9BE492F7110F57D300931CD5 /* Unit Tests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1D6058900D05DD3D006BFB54 /* Snapup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Snapup" */;
+			buildPhases = (
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9B3C5270110E5E90002A0609 /* PBXTargetDependency */,
+				9BE49336110F588500931CD5 /* PBXTargetDependency */,
+			);
+			name = Snapup;
+			productName = Snapup;
+			productReference = 1D6058910D05DD3D006BFB54 /* Snapup.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Snapup" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9BE492E6110F57D300931CD5 /* Products */;
+					ProjectRef = 9BE492E5110F57D300931CD5 /* MPOAuthConnection.xcodeproj */;
+				},
+				{
+					ProductGroup = 9B3C5234110E5E69002A0609 /* Products */;
+					ProjectRef = 9B3C5233110E5E69002A0609 /* Three20.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				1D6058900D05DD3D006BFB54 /* Snapup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		9B3C523C110E5E69002A0609 /* libThree20.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libThree20.a;
+			remoteRef = 9B3C523B110E5E69002A0609 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9B3C523E110E5E69002A0609 /* UnitTests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = UnitTests.octest;
+			remoteRef = 9B3C523D110E5E69002A0609 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BE492F1110F57D300931CD5 /* MPOAuthConnection.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = MPOAuthConnection.app;
+			remoteRef = 9BE492F0110F57D300931CD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BE492F3110F57D300931CD5 /* MPOAuth.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MPOAuth.framework;
+			remoteRef = 9BE492F2110F57D300931CD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BE492F5110F57D300931CD5 /* libMPOAuth.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libMPOAuth.a;
+			remoteRef = 9BE492F4110F57D300931CD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		9BE492F7110F57D300931CD5 /* Unit Tests.octest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "Unit Tests.octest";
+			remoteRef = 9BE492F6110F57D300931CD5 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
+				2899E5220DE3E06400AC0155 /* SnapupViewController.xib in Resources */,
+				9B98238110DEDB6E000D57BE /* EventTableCell.xib in Resources */,
+				9B3C5273110E5EA8002A0609 /* Three20.bundle in Resources */,
+				9BE49429110F7AC000931CD5 /* oauthAutoConfig.plist in Resources */,
+				9BA67D0C1111FA7D00AC9C41 /* LoginViewController.xib in Resources */,
+				9B1E3FAF1118DA3C00A6EAF3 /* PhotoUploadViewController.xib in Resources */,
+				9BDB54FD112478D9003126E7 /* NowCell.xib in Resources */,
+				9BBB7FD9112F4AF2003188FC /* snapup_icon.png in Resources */,
+				CA001A9C11345513004D0953 /* Default.png in Resources */,
+				9BD208B51135C33B007600A2 /* BasicTextCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* SnapupAppDelegate.m in Sources */,
+				28D7ACF80DDB3853001CB0EB /* SnapupViewController.m in Sources */,
+				9B98234A10DED914000D57BE /* Event.m in Sources */,
+				9B98237F10DEDB23000D57BE /* EventTableCell.m in Sources */,
+				9B9823AA10DEDD49000D57BE /* User.m in Sources */,
+				9B98243E10DEE048000D57BE /* NSObject+SBJSON.m in Sources */,
+				9B98243F10DEE048000D57BE /* NSString+SBJSON.m in Sources */,
+				9B98244010DEE048000D57BE /* SBJSON.m in Sources */,
+				9B98244110DEE048000D57BE /* SBJsonBase.m in Sources */,
+				9B98244210DEE048000D57BE /* SBJsonParser.m in Sources */,
+				9B98244310DEE048000D57BE /* SBJsonWriter.m in Sources */,
+				9BB9B886110F8688005BC5DF /* MeetupConnectionManager.m in Sources */,
+				9BA67D0B1111FA7D00AC9C41 /* LoginViewController.m in Sources */,
+				9B23155E1118CBEB002D4C91 /* LoadingView.m in Sources */,
+				9B1E3FAE1118DA3C00A6EAF3 /* PhotoUploadViewController.m in Sources */,
+				9BDB5501112479A4003126E7 /* NowCell.m in Sources */,
+				9BBB8008112F4F49003188FC /* MeetupAsyncRequest.m in Sources */,
+				9BD2090A1135CBE6007600A2 /* BasicTextCell.m in Sources */,
+				9B124A031141B74F009628E6 /* Meetup.xcdatamodel in Sources */,
+				9BB8245E1148072E00640953 /* NSDate+StringFunctions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9B3C5270110E5E90002A0609 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Three20;
+			targetProxy = 9B3C526F110E5E90002A0609 /* PBXContainerItemProxy */;
+		};
+		9BE49336110F588500931CD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libMPOAuth;
+			targetProxy = 9BE49335110F588500931CD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Snapup_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					../Frameworks/mpoauthconnection/Source/Framework,
+					../Frameworks/three20/src,
+				);
+				INFOPLIST_FILE = "Snapup-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/FlurryLib\"",
+				);
+				PRODUCT_NAME = Snapup;
+			};
+			name = Debug;
+		};
+		1D6058950D05DD3E006BFB54 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = Snapup_Prefix.pch;
+				HEADER_SEARCH_PATHS = (
+					../Frameworks/mpoauthconnection/Source/Framework,
+					../Frameworks/three20/src,
+				);
+				INFOPLIST_FILE = "Snapup-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Frameworks/FlurryLib\"",
+				);
+				PRODUCT_NAME = Snapup;
+				SDKROOT = iphoneos3.0;
+			};
+			name = Release;
+		};
+		C01FCF4F08A954540054247B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../Frameworks/three20/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Debug;
+		};
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = ../Frameworks/three20/src;
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
+				);
+				PREBINDING = NO;
+				SDKROOT = iphoneos3.1.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "Snapup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "Snapup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
+}

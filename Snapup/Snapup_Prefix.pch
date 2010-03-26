@@ -1,0 +1,24 @@
+//
+// Prefix header for all source files of the 'Meetup Photo' target in the 'Meetup Photo' project
+//
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iPhone SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+	#import <CoreData/CoreData.h>
+#endif
+
+// dates
+#define kAPIDate        @"MMddyyyy"
+#define kSuperShortDate @"EEE M/dd"
+#define kShortTimeDate	@"EEEE, MMM d 'at' h:mm:ss a"
+#define kShortDate		@"EEE, LLLL d"
+#define kLongDate		@"EEEE LLLL d\nh:mm a"
+#define kDatabaseDate	@"EEE MMM d HH:mm:ss zzz yyyy"
+
+#define kUserAuthEvent		@"User Authenticated"
+#define kPhotoUploadEvent	@"Upload Photo"

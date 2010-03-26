@@ -1,0 +1,41 @@
+Snapup
+======
+
+Snapup for iPhone allows you to upload photos to [Meetup.com][]. The application uses the [Meetup API][] and authenticates the user through OAuth.
+
+It was inspired by Snapup for Android, which is available at:
+<http://github.com/meetup/snapup/>
+
+[Meetup.com]: http://www.meetup.com/
+[Meetup API]: http://www.meetup.com/meetup_api/
+
+Building
+========
+
+You will need the latest XCode (3.1+) to play around with Snapup.
+
+Check out the latest [three20][] library from GitHub and create a symbolic link from snapup/Frameworks/three20 to the three20. Typically, this is done like so:
+
+	1. git clone git://github.com/facebook/three20.git
+	2. ln -s three20 snapup/Frameworks/three20
+
+In order for this code to communicate with the Meetup API, you will need to request a consumer key/secret from us. More details can be found here:
+<http://www.meetup.com/meetup_api/docs/#oauth>
+
+Feel free to use any of this code to implement your own Meetup iPhone app! Comments, suggestions and bug reports are welcome.
+
+[three20]: http://github.com/facebook/three20/
+
+Acknowledgements
+================
+
+Snapup was created using the following frameworks.
+
+MPOAuthConnection by Karl Adam (with modifications to allow photo upload), to communicate with the Meetup API using OAuth:
+<http://code.google.com/p/mpoauthconnection/>
+
+JSON by Stig Brautaset, to parse JSON returned by the Meetup API:
+<http://code.google.com/p/json-framework/>
+
+Three20 by Facebook, to simplify caching of images on the events listing view:
+<http://github.com/facebook/three20/>
