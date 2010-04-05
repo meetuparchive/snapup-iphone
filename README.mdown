@@ -10,7 +10,7 @@ It was inspired by Snapup for Android, which is available at:
 [Meetup API]: http://www.meetup.com/meetup_api/
 
 You may download app from the iTunes App Store here:
-http://itunes.apple.com/us/app/snapup-from-meetup/id365018577
+<http://itunes.apple.com/us/app/snapup-from-meetup/id365018577>
 
 Building
 ========
