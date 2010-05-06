@@ -558,10 +558,7 @@
 					../Frameworks/three20/src,
 				);
 				INFOPLIST_FILE = "Snapup-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks/FlurryLib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Snapup;
 			};
 			name = Debug;
@@ -578,10 +575,7 @@
 					../Frameworks/three20/src,
 				);
 				INFOPLIST_FILE = "Snapup-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../Frameworks/FlurryLib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				PRODUCT_NAME = Snapup;
 				SDKROOT = iphoneos3.0;
 			};
